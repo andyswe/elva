@@ -1,4 +1,4 @@
-Backend to login and obtain information about electricity and water consumption for KTC RCU Lägenhetsnod.
+Backend to login and obtain information about electricity and water consumption for KTC RCU LÃ¤genhetsnod.
 Code is written for KTC RCU1111-1100. More information here:
 http://www.ktc.se/wp-content/uploads/2013/04/Anvandarmanual-del-2-KTC-RCU1111-SW-4.3.00-T-V-2013-08-13.-Peo-Sandberg-Sanna-Fager-KTC-TECH.pdf
 

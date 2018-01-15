@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component
 
 @Component class MeasurementScheduler {
 
-    @Autowired lateinit var repo : MeasurementRepository
+    @Autowired lateinit var powerRepo : MeasurementRepository
 
     @Scheduled(fixedRate = 1000* 60)  fun obtainMeasurement() {
-        repo.save(Obtainer().obtain())
+        powerRepo.save(Obtainer().obtain())
 
     }
 }
